@@ -1,0 +1,27 @@
+{
+  "name": "board-game-backend",
+  "version": "1.0.0",
+  "description": "Board Game",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index",
+    "deploy": "firebase deploy --only functions"
+  },
+  "keywords": [
+    "GAME"
+  ],
+  "author": "Hassan Tasleem",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "firebase": "^9.11.0",
+    "firebase-functions": "^3.24.1",
+    "firebase-tools": "^11.14.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
